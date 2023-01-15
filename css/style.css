@@ -288,6 +288,18 @@ h6 {
   grid-column: 2 / -1;
 }
 
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  padding: 0.5rem;
+}
+
+#article .meta .category {
+  margin-top: 0.4rem;
+}
+
 /* Footer */
 #main-footer {
   background-color: var(--dark-color);
